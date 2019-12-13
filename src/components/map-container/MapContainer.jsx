@@ -42,6 +42,9 @@ const MapContainer = (props) => {
                     <Mapir.ZoomControl position={'bottom-left'} />
                     
                 </Mapir>
+                <div class="row justify-content-center">
+                <button style={{ position: "fixed", bottom: "0",  width: "40%" }} className=" btn btn-success mx-auto" onClick={props.sendData}>Submit</button>
+                </div>
                 </div>
      );
 }
